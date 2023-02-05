@@ -23,15 +23,7 @@ const item1 = new Item({
   name: "Welcome to your todolist!"
 });
 
-const item2 = new Item({
-  name: ""
-});
-
-const item3 = new Item({
-  name: ""
-});
-
-const defaultItems = [item1, item2, item3];
+const defaultItems = [item1];
 
 const listSchema = {
   name: String,
